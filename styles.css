@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+section {
+    padding: 40px 10%;
+    background-color: #fff;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 2px solid #4a90e2;
+}
+
+#project-timeline h2 {
+    color: #333;
+}
+
+#project-timeline {
+    padding: 20px;
+}
+
+.stage {
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.planning {
+    background-color: #e6f7ff; /* Light blue for Planning */
+}
+
+.design {
+    background-color: #fff0f6; /* Light pink for Design */
+}
+
+.development {
+    background-color: #e6f4ea; /* Light green for Development */
+}
+
+.testing {
+    background-color: #fff7e6; /* Light yellow for Testing */
+}
+
+.deployment {
+    background-color: #f9f9f9; /* Light gray for Deployment */
+}
+
+.stage h3 {
+    color: #333;
+    margin: 0;
+}
+
+.stage p {
+    color: #555;
+}
+
+
+/* You can add specific styles for deadlines, priorities, and labels inside li */
+
+#timeline {
+    /* Add specific styling for the timeline here, such as a graphical representation or list styling */
+}
+
+#todo-list form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#todo-list input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+#todo-list button {
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+#todo-list button:hover {
+    background-color: #357ab8;
+}
+
+#todo-list ul {
+    list-style: none;
+}
+
+#todo-list ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
